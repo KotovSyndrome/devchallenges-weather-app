@@ -4,7 +4,9 @@ import React from 'react'
 
 function MainPanel() {
   return (
-    <div>MainPanel</div>
+    <React.Fragment>
+      <div>MainPanel</div>
+    </ React.Fragment>
   )
 }
 
