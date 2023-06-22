@@ -10,10 +10,10 @@ const Home: NextPage = () => {
   return (
     <React.Fragment>
       <div className='sm:flex flex-row h-screen'>
-        <div className='flex-auto bg-slate-800 sm:w-4/12 sm:h-full h-screen'>
+        <div className='flex-auto bg-sidebar sm:w-4/12 sm:h-full h-screen'>
           <Sidebar />
         </div>
-        <div className='flex-auto bg-gray-900 sm:w-8/12 sm:h-full min-h-screen'>
+        <div className='flex-auto bg-mainPanel sm:w-8/12 sm:h-full min-h-screen'>
           <MainPanel />
         </div>
       </div>
